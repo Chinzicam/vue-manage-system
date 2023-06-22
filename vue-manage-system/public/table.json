@@ -1,40 +1,105 @@
 {
-    "list": [{
-            "id": 1,
-            "name": "张三",
-            "money": 123,
-            "address": "广东省东莞市长安镇",
-            "state": "成功",
-            "date": "2019-11-1",
-            "thumb": "https://lin-xin.gitee.io/images/post/wms.png"
-        },
-        {
-            "id": 2,
-            "name": "李四",
-            "money": 456,
-            "address": "广东省广州市白云区",
-            "state": "成功",
-            "date": "2019-10-11",
-            "thumb": "https://lin-xin.gitee.io/images/post/node3.png"
-        },
-        {
-            "id": 3,
-            "name": "王五",
-            "money": 789,
-            "address": "湖南省长沙市",
-            "state": "失败",
-            "date": "2019-11-11",
-            "thumb": "https://lin-xin.gitee.io/images/post/parcel.png"
-        },
-        {
-            "id": 4,
-            "name": "赵六",
-            "money": 1011,
-            "address": "福建省厦门市鼓浪屿",
-            "state": "成功",
-            "date": "2019-10-20",
-            "thumb": "https://lin-xin.gitee.io/images/post/notice.png"
-        }
-    ],
-    "pageTotal": 4
+  "list": [
+    {
+      "id": 1,
+      "name": "周静",
+      "money": "104",
+      "thumb": "https://pic.imgdb.cn/item/631d7d2f16f2c2beb1f59108.jpg",
+      "address": "贵州省铜仁市石阡县",
+      "status": 1,
+      "date": "2018-08-12T02:40:10",
+      "deleted": "0"
+    },
+    {
+      "id": 2,
+      "name": "孟霞",
+      "money": "95",
+      "thumb": "https://pic.imgdb.cn/item/631d7d2f16f2c2beb1f59108.jpg",
+      "address": "广东省东莞市长安镇",
+      "status": 0,
+      "date": "2010-03-22T05:04:49",
+      "deleted": "0"
+    },
+    {
+      "id": 3,
+      "name": "丁明",
+      "money": "101",
+      "thumb": "https://pic.imgdb.cn/item/631d7d2f16f2c2beb1f59108.jpg",
+      "address": "辽宁省大连市普兰店市",
+      "status": 0,
+      "date": "1989-02-20T10:53:15",
+      "deleted": "0"
+    },
+    {
+      "id": 4,
+      "name": "梁伟",
+      "money": "8",
+      "thumb": "https://pic.imgdb.cn/item/631d7d2f16f2c2beb1f59108.jpg",
+      "address": "湖南省长沙市",
+      "status": 1,
+      "date": "1986-05-07T14:43:51",
+      "deleted": "0"
+    },
+    {
+      "id": 5,
+      "name": "马强",
+      "money": "95",
+      "thumb": "https://pic.imgdb.cn/item/631d7d2f16f2c2beb1f59108.jpg",
+      "address": "广东省广州市白云区",
+      "status": 0,
+      "date": "2017-09-08T16:50:29",
+      "deleted": "0"
+    },
+    {
+      "id": 6,
+      "name": "阎霞",
+      "money": "84",
+      "thumb": "https://pic.imgdb.cn/item/631d7d2f16f2c2beb1f59108.jpg",
+      "address": "山西省太原市杏花岭区",
+      "status": 1,
+      "date": "2011-01-01T11:34:07",
+      "deleted": "0"
+    },
+    {
+      "id": 7,
+      "name": "崔霞",
+      "money": "7",
+      "thumb": "https://pic.imgdb.cn/item/631d7d2f16f2c2beb1f59108.jpg",
+      "address": "山东省东营市垦利县",
+      "status": 1,
+      "date": "2011-06-06T02:13:26",
+      "deleted": "0"
+    },
+    {
+      "id": 8,
+      "name": "邹超",
+      "money": "42",
+      "thumb": "https://pic.imgdb.cn/item/631d7d2f16f2c2beb1f59108.jpg",
+      "address": "北京北京市海淀区",
+      "status": 0,
+      "date": "1991-01-24T09:30:11",
+      "deleted": "0"
+    },
+    {
+      "id": 9,
+      "name": "林涛",
+      "money": "30",
+      "thumb": "https://pic.imgdb.cn/item/631d7d2f16f2c2beb1f59108.jpg",
+      "address": "青海省玉树藏族自治州 治多县",
+      "status": 0,
+      "date": "1995-01-14T13:08:26",
+      "deleted": "0"
+    },
+    {
+      "id": 10,
+      "name": "薛秀英",
+      "money": "26",
+      "thumb": "https://pic.imgdb.cn/item/631d7d2f16f2c2beb1f59108.jpg",
+      "address": "广西壮族自治区崇左市扶绥县",
+      "status": 0,
+      "date": "2011-07-17T02:25:54",
+      "deleted": "0"
+    }
+  ],
+  "pageTotal": 10
 }
