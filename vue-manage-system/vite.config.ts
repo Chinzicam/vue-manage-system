@@ -16,6 +16,9 @@ export default defineConfig({
 			resolvers: [ElementPlusResolver()]
 		})
 	],
+	server: {
+		port: 5173, // 在这里修改端口号
+	},
 	optimizeDeps: {
 		include: ['schart.js']
 	}
