@@ -31,6 +31,9 @@ public class Result<T> {
     public static<T>  Result<T> success(String message){
         return new Result<>(20000,message,null,0);
     }
+    public static<T>  Result<T> success(T list){
+        return new Result<>(20000,"message",list,0);
+    }
 
     public static<T>  Result<T> fail(){
         return new Result<>(20001,"fail",null,0);
