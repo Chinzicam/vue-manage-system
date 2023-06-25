@@ -86,7 +86,7 @@ const submitForm = (formEl: FormInstance | undefined) => {
               localStorage.setItem('ms_keys', JSON.stringify(keys));
               router.push('/');
             } else {
-              ElMessage.error(resData.message);
+              ElMessage.error('登录失败，请检查输入');
             }
           })
           .catch(error => {
