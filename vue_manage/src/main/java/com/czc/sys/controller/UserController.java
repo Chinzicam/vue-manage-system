@@ -36,11 +36,11 @@ public class UserController {
 
     @GetMapping("/table.json")
     public Result<?> getUserListPage(@RequestParam(value = "address", required = false) String address,
-                                     @RequestParam(value = "username", required = false) String username,
+                                     @RequestParam(value = "name", required = false) String name,
                                      @RequestParam("pageIndex") Long pageIndex,
                                      @RequestParam("pageSize") Long pageSize) {
         LambdaQueryWrapper<User> wrapper = new LambdaQueryWrapper<>();
-        wrapper.eq(username != null, User::getUsername, username);
+        wrapper.eq(name != null, User::getName, name);
         wrapper.eq(address != null, User::getAddress, address);
 //        wrapper.orderByDesc(User::getId);
         Page<User> page = new Page<>(pageIndex, pageSize);
